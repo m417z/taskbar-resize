@@ -1,8 +1,3 @@
-
-// no need to compile 64, compile only 32 version it works fine with win7 64 
-// I compile it with en_visual_studio_community_2013_with_update_5_x86_dvd_6816332.iso
-// to compile it for xp choose "Visual Studio 2013 - Windows XP (v120_xp)" in Plataform Toolset
-
 #include <windows.h>
 #include <shlwapi.h>
 
