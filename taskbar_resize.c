@@ -44,7 +44,7 @@ void main()
                 }
                 else if(bLeft) {
                     rc.right = rc.left + nMySize;
-                    SendMessage(hTaskbarWnd, WM_SIZING, WMSZ_LEFT, (LPARAM)&rc);
+                    SendMessage(hTaskbarWnd, WM_SIZING, WMSZ_RIGHT, (LPARAM)&rc);
                     SetWindowPos(hTaskbarWnd, NULL, 0, 0, nMySize, rc.bottom - rc.top, SWP_NOMOVE | SWP_NOZORDER | SWP_NOACTIVATE);
                 }
             }
